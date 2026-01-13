@@ -1,4 +1,5 @@
-FROM nvidia/cuda:12.8.0-devel-ubuntu22.04
+# FROM nvidia/cuda:12.8.0-devel-ubuntu22.04
+FROM registry.cloud.rt.nyu.edu/sw77/cuda
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TORCH_CUDA_ARCH_LIST="7.5;8.0;8.6+PTX"
